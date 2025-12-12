@@ -1,42 +1,44 @@
 @import "tailwindcss";
 
 @theme {
-	/* Colors */
-	--color-gray-50: #f9f9f9;
-	--color-gray-100: #f3f3f3;
-	--color-gray-200: #e5e5e5;
-	--color-gray-300: #d4d4d4;
-	--color-gray-400: #a3a3a3;
-	--color-gray-500: #737373;
-	--color-gray-600: #525252;
-	--color-gray-700: #404040;
-	--color-gray-800: #262626;
-	--color-gray-900: #171717;
-	--color-gray-950: #0a0a0a;
+	/* Monad-inspired Dark Purple Palette */
+	--color-gray-50: #fafafa;
+	--color-gray-100: #f4f4f5;
+	--color-gray-200: #e4e4e7;
+	--color-gray-300: #d4d4d8;
+	--color-gray-400: #a1a1aa;
+	--color-gray-500: #71717a;
+	--color-gray-600: #52525b;
+	--color-gray-700: #3f3f46;
+	--color-gray-800: #27272a;
+	--color-gray-900: #18181b;
+	--color-gray-950: #09090b;
 
-	--color-primary-50: oklch(0.979 0.021 166.113);
-	--color-primary-100: oklch(0.95 0.052 163.051);
-	--color-primary-200: oklch(0.905 0.093 164.15);
-	--color-primary-300: oklch(0.845 0.143 164.978);
-	--color-primary-400: oklch(0.765 0.177 163.223);
-	--color-primary-500: oklch(0.696 0.17 162.48);
-	--color-primary-600: oklch(0.596 0.145 163.225);
-	--color-primary-700: oklch(0.508 0.118 165.612);
-	--color-primary-800: oklch(0.432 0.095 166.913);
-	--color-primary-900: oklch(0.378 0.077 168.94);
-	--color-primary-950: oklch(0.262 0.051 172.552);
+	/* Purple gradient colors inspired by Monad */
+	--color-primary-50: #faf5ff;
+	--color-primary-100: #f3e8ff;
+	--color-primary-200: #e9d5ff;
+	--color-primary-300: #d8b4fe;
+	--color-primary-400: #c084fc;
+	--color-primary-500: #a855f7;
+	--color-primary-600: #9333ea;
+	--color-primary-700: #7e22ce;
+	--color-primary-800: #6b21a8;
+	--color-primary-900: #581c87;
+	--color-primary-950: #3b0764;
 
-	--color-secondary-50: oklch(97% 0.015 30);
-	--color-secondary-100: oklch(92% 0.02 30);
-	--color-secondary-200: oklch(86% 0.03 30);
-	--color-secondary-300: oklch(80% 0.04 30);
-	--color-secondary-400: oklch(74% 0.05 30);
-	--color-secondary-500: oklch(68% 0.06 30);
-	--color-secondary-600: oklch(60% 0.07 30);
-	--color-secondary-700: oklch(52% 0.08 30);
-	--color-secondary-800: oklch(40% 0.09 30);
-	--color-secondary-900: oklch(30% 0.1 30);
-	--color-secondary-950: oklch(20% 0.11 30);
+	/* Accent purple for highlights */
+	--color-secondary-50: #fdf4ff;
+	--color-secondary-100: #fae8ff;
+	--color-secondary-200: #f5d0fe;
+	--color-secondary-300: #f0abfc;
+	--color-secondary-400: #e879f9;
+	--color-secondary-500: #d946ef;
+	--color-secondary-600: #c026d3;
+	--color-secondary-700: #a21caf;
+	--color-secondary-800: #86198f;
+	--color-secondary-900: #701a75;
+	--color-secondary-950: #4a044e;
 
 	--font-body: var(--font-family), var(--font-fallback);
 	--font-display: var(--font-body);

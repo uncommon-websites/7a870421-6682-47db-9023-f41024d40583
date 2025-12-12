@@ -15,40 +15,57 @@
 
     <div class="flex flex-wrap items-center justify-between gap-4 mb-8 border-t border-gray-200 pt-6">
       <div class="flex items-center gap-4">
-        <button class="bg-black text-white px-6 py-3 rounded text-sm font-medium hover:bg-gray-800 transition-colors">
+        <button class="bg-primary-600 text-white px-6 py-3 rounded text-sm font-medium hover:bg-primary-500 transition-colors">
           Start Earning
         </button>
         <span class="text-xs text-gray-500 max-w-[120px] leading-tight">
           Non-custodial. Audited. Automated.
         </span>
       </div>
-      <div class="text-[10px] text-gray-400 uppercase tracking-wider">
+      <div class="text-[10px] text-gray-500 uppercase tracking-wider">
         $4.86M Total Value Locked
       </div>
     </div>
 
-    <div class="relative w-full h-[600px] overflow-hidden rounded-sm bg-primary-800">
-      <!-- Image Overlay -->
-      <img 
-        src="/generated/image-modern-financial-dashboard-with-cryptocu-1765512590822-0.webp" 
-        alt="DeFi Dashboard" 
-        class="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay grayscale contrast-125"
-      />
-      <div class="absolute inset-0 bg-gradient-to-tr from-primary-900/80 to-primary-700/40 mix-blend-multiply"></div>
+    <div class="relative w-full h-[700px] overflow-hidden rounded-2xl bg-gradient-to-br from-primary-900 via-primary-800 to-black border border-primary-700/30">
+      <!-- Gradient Overlays -->
+      <div class="absolute inset-0 bg-gradient-to-tr from-purple-900/40 via-transparent to-primary-600/20"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(168,85,247,0.15),transparent_50%)]"></div>
       
-      <!-- Curved Line Graphic -->
-      <svg class="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 1400 600" fill="none" preserveAspectRatio="none">
-        <!-- Main large curve -->
-        <path d="M-100,600 C200,500 400,100 1500,50" stroke="white" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke" />
-        <!-- Secondary fainter curve -->
-        <path d="M-100,600 C300,400 600,200 1500,300" stroke="white" stroke-width="1" stroke-opacity="0.15" vector-effect="non-scaling-stroke" />
+      <!-- Grid Pattern -->
+      <div class="absolute inset-0 opacity-10" style="background-image: linear-gradient(rgba(168,85,247,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(168,85,247,0.3) 1px, transparent 1px); background-size: 50px 50px;"></div>
+      
+      <!-- Curved Line Graphics -->
+      <svg class="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 1400 700" fill="none" preserveAspectRatio="none">
+        <path d="M-100,700 C200,600 400,150 1500,100" stroke="url(#gradient1)" stroke-width="2" stroke-opacity="0.6" vector-effect="non-scaling-stroke" />
+        <path d="M-100,700 C300,500 600,250 1500,350" stroke="url(#gradient2)" stroke-width="1.5" stroke-opacity="0.3" vector-effect="non-scaling-stroke" />
+        <defs>
+          <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0.2" />
+            <stop offset="50%" style="stop-color:#c084fc;stop-opacity:0.8" />
+            <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0.2" />
+          </linearGradient>
+          <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#d946ef;stop-opacity:0.1" />
+            <stop offset="50%" style="stop-color:#e879f9;stop-opacity:0.5" />
+            <stop offset="100%" style="stop-color:#d946ef;stop-opacity:0.1" />
+          </linearGradient>
+        </defs>
       </svg>
 
-      <!-- Center Text -->
-      <div class="absolute inset-0 flex items-center justify-center">
-        <div class="flex items-center gap-2 text-white/80 text-[10px] tracking-[0.2em] font-medium uppercase">
-          <div class="w-[2px] h-3 bg-white/80"></div>
-          Save Globally
+      <!-- Center Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center gap-8">
+        <div class="text-center">
+          <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-primary-900/50 border border-primary-600/30 backdrop-blur-sm mb-6">
+            <div class="w-2 h-2 rounded-full bg-primary-400 animate-pulse"></div>
+            <span class="text-sm text-primary-200 font-medium">Live on mainnet</span>
+          </div>
+          <h2 class="text-5xl md:text-6xl font-bold text-white mb-4">
+            Save globally,<br/>spend locally
+          </h2>
+          <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+            The evolution of programmable money
+          </p>
         </div>
       </div>
     </div>

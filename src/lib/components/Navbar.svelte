@@ -10,20 +10,20 @@
             fill="currentColor"
           />
         </svg>
-        <span>Blend</span>
+        <span class="text-white">Blend</span>
       </div>
-      <span class="text-gray-500 ml-2">Cross-chain yield optimization</span>
+      <span class="text-gray-400 ml-2">Cross-chain yield optimization</span>
     </div>
   </div>
 
   <div class="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
-    <a href="/" class="text-gray-900 hover:text-gray-600">Vaults</a>
-    <a href="/" class="text-gray-500 hover:text-gray-900">How it works</a>
-    <a href="/" class="text-gray-500 hover:text-gray-900">Strategies</a>
+    <a href="/" class="text-white hover:text-gray-300 transition-colors">Vaults</a>
+    <a href="/" class="text-gray-400 hover:text-white transition-colors">How it works</a>
+    <a href="/" class="text-gray-400 hover:text-white transition-colors">Strategies</a>
   </div>
 
   <div class="flex items-center gap-6">
-    <a href="/" class="text-gray-900 hover:text-gray-600">Launch App</a>
-    <a href="/" class="bg-black text-white px-5 py-2 rounded text-xs font-medium hover:bg-gray-800 transition-colors">Connect Wallet</a>
+    <a href="/" class="text-white hover:text-gray-300 transition-colors">Launch App</a>
+    <a href="/" class="bg-primary-600 text-white px-5 py-2 rounded text-xs font-medium hover:bg-primary-500 transition-colors">Connect Wallet</a>
   </div>
 </nav>

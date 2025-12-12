@@ -10,7 +10,7 @@
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<div class="min-h-screen bg-[#f5f5f5] font-sans selection:bg-black selection:text-white">
+<div class="min-h-screen bg-black font-sans selection:bg-primary-500 selection:text-white">
   <Navbar />
   <Hero />
   <Logos />

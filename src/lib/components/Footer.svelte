@@ -53,7 +53,7 @@
       </p>
     </div>
 
-    <div class="mt-12 flex items-center gap-4 text-xs text-gray-500">
+    <div class="mt-12 flex items-center gap-4 text-xs text-gray-600">
       <div class="flex items-center gap-2 font-bold text-white tracking-wide">
         <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
