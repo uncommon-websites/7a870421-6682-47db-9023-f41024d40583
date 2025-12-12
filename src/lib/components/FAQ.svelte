@@ -7,13 +7,13 @@
   }
 
   const faqs: FAQItem[] = [
-    { question: "Do I have to trust the lead investor with my investment?", answer: "Details about trust and lead investors..." },
-    { question: "How does Echo work?", answer: "Echo works by connecting..." },
-    { question: "I want to share my deals. Can I start a group?", answer: "Yes, you can start a group by..." },
-    { question: "I'm a founder. How do I raise money from Echo?", answer: "Founders can raise money by..." },
-    { question: "Is everyone eligible to use Echo?", answer: "Eligibility depends on..." },
-    { question: "Why do founders raise from Echo groups?", answer: "Founders choose Echo because..." },
-    { question: "Why would someone share their deals with me?", answer: "Sharing deals allows for..." }
+    { question: "Is Blend non-custodial?", answer: "Yes, Blend is completely non-custodial. Your assets remain in audited Safe accounts that you control at all times. We never have custody of your funds—you maintain full ownership and can withdraw whenever you want." },
+    { question: "How does automated rebalancing work?", answer: "Blend continuously monitors yield opportunities across multiple blockchains and DeFi protocols. When a better opportunity is identified, the system automatically moves your assets to maximize returns while maintaining your preferred risk profile." },
+    { question: "What currencies are supported?", answer: "Blend currently supports 8+ major currencies including USD, EUR, GBP, JPY, and various stablecoins. We're constantly adding support for more currencies based on user demand." },
+    { question: "How does FX hedging protect my yields?", answer: "Our delta-neutral hedging strategies use derivatives to offset currency volatility. This means you can earn DeFi yields while maintaining stable value in your local currency, protecting you from exchange rate fluctuations." },
+    { question: "Has Blend been audited?", answer: "Yes, Blend's smart contracts have been audited by leading security firms. We prioritize security and transparency, with all audit reports publicly available on our documentation site." },
+    { question: "What are the fees?", answer: "Blend charges a small performance fee on profits generated. There are no deposit or withdrawal fees. Our fee structure is transparent and competitive with other yield optimization platforms." },
+    { question: "Which chains does Blend support?", answer: "Blend operates across multiple chains including Ethereum, Polygon, Arbitrum, Optimism, and Base. Our cross-chain infrastructure allows seamless movement of assets to capture the best yields regardless of chain." }
   ];
 
   let openIndex: number | null = null;
